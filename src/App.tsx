@@ -1,5 +1,6 @@
 import "./App.css";
-import ImageSlider from "./components/image-slider";
+import LoadMoreData from "./components/load-more";
+//import ImageSlider from "./components/image-slider";
 //import StarRating from './components/star-rating'
 //import RandomColor from './components/random-color-generator'
 
@@ -13,7 +14,10 @@ function App() {
       {/* <StarRating noOfStars={10}/> */}
 
       {/*Image Slider component*/}
-      <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} page={1} />
+      {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} page={1} /> */}
+
+      {/*Load more data component*/}
+      <LoadMoreData /> 
     </div>
   );
 }
