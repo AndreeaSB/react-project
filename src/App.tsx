@@ -1,5 +1,7 @@
 import "./App.css";
-import LoadMoreData from "./components/load-more";
+import TreeView from "./components/tree-view";
+import menus from "./components/tree-view/data";
+// import LoadMoreData from "./components/load-more";
 //import ImageSlider from "./components/image-slider";
 //import StarRating from './components/star-rating'
 //import RandomColor from './components/random-color-generator'
@@ -17,7 +19,10 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} page={1} /> */}
 
       {/*Load more data component*/}
-      <LoadMoreData /> 
+      {/*<LoadMoreData />*/} 
+
+      {/* Tree View Component */}
+      <TreeView menus={menus} />
     </div>
   );
 }
