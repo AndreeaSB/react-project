@@ -1,5 +1,6 @@
 import "./App.css";
-import QRCodeGenerator from "./components/qr-generator";
+import DarkTheme from './components/dark-theme'
+// import QRCodeGenerator from "./components/qr-generator";
 // import TreeView from "./components/tree-view";
 // import menus from "./components/tree-view/data";
 // import LoadMoreData from "./components/load-more";
@@ -26,7 +27,10 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
       {/* QR Code Generator */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* Dark Theme */}
+      <DarkTheme />
     </div>
   );
 }
