@@ -1,5 +1,6 @@
 import "./App.css";
-import DarkTheme from './components/dark-theme'
+import ScrollIndicator from "./components/scroll-indicator";
+// import DarkTheme from './components/dark-theme'
 // import QRCodeGenerator from "./components/qr-generator";
 // import TreeView from "./components/tree-view";
 // import menus from "./components/tree-view/data";
@@ -30,7 +31,10 @@ function App() {
       {/* <QRCodeGenerator /> */}
 
       {/* Dark Theme */}
-      <DarkTheme />
+      {/* <DarkTheme /> */}
+
+      {/* scroll indicator */}
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
     </div>
   );
 }
