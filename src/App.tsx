@@ -1,13 +1,14 @@
 import "./App.css";
-import ScrollIndicator from "./components/scroll-indicator";
+import TabTest from "./components/tabs/tabs-test";
+// import ScrollIndicator from "./components/scroll-indicator";
 // import DarkTheme from './components/dark-theme'
 // import QRCodeGenerator from "./components/qr-generator";
 // import TreeView from "./components/tree-view";
 // import menus from "./components/tree-view/data";
 // import LoadMoreData from "./components/load-more";
-//import ImageSlider from "./components/image-slider";
-//import StarRating from './components/star-rating'
-//import RandomColor from './components/random-color-generator'
+// import ImageSlider from "./components/image-slider";
+// import StarRating from './components/star-rating'
+// import RandomColor from './components/random-color-generator'
 
 function App() {
   return (
@@ -34,7 +35,10 @@ function App() {
       {/* <DarkTheme /> */}
 
       {/* scroll indicator */}
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+
+      {/* Tabs Component */}
+      <TabTest />
     </div>
   );
 }
